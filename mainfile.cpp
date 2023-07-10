@@ -81,7 +81,7 @@ int main(){
         case 3:
             exit(0);
         default:
-            cout<<"You have entered an invalid option please re-enter\n"<<endl;
+            cout<<"Invalid option!\n"<<endl;
             break;
         }
     }
