@@ -62,6 +62,22 @@ void gpacalc(){
     cout<<"Your GPA for this semester is "<<gpa<<endl;
     
 }
+void cgpacalc(){
+    double semno;
+    double gpasum = 0;
+    double gpa;
+    cout<<"Please enter the number of semesters: ";
+    cin>>semno;
+    cout<<endl;
+    for (int i = 1; i < semno+1; i++)
+    {
+        cout<<"Enter the GPA of Sem "<<i<<endl;
+        cin>>gpa;
+        gpasum += gpa;
+    }
+    cout<<"Your CGPA till now is: "<<(gpasum/semno)<<endl;
+    
+}
 int main(){
     while (true){
         int choicevar;
@@ -77,7 +93,7 @@ int main(){
             gpacalc();
             break;
         case 2:
-            // cgpacalc();
+            cgpacalc();
         case 3:
             exit(0);
         default:

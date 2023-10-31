@@ -1,0 +1,6 @@
+This code is used for calculating the GPA and the CGPA of the user
+The GPA is calculated based on the 4 pointer system.
+
+PS
+This was my first small project in c++, which explains the unoptimized code and the roundabout way of solving a simple problem :D
+
